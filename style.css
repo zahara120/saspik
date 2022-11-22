@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.text-primary{
+    color: #ffa600;
+}
+
 nav{
     display: flex;
     padding: 30px 0;
@@ -16,6 +20,16 @@ section{
 
 .profile{
     font-size: 20px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login:hover {
+    text-decoration: underline;
 }
 
 .left-nav ul{
@@ -57,6 +71,17 @@ a{
 .btn-secondary:hover{
     background-color: #ffa600;
     color: white;
+}
+.btn-third{
+    color: #ffff;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    padding: 10px 25px;
+}
+
+.btn-third:hover{
+    background-color: #ffa600da;
+    color: black;
 }
 
 .primary-text{
@@ -252,3 +277,22 @@ footer a:hover{
     color: #ffa600;
 }
 
+/* login */
+
+.box-login{
+    width: 1192px;
+    height: 550px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 10px 10px lightblue;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    height: 45px;
+    width: 250px;
+}
